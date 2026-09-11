@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "dev.burmaldyn.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"ClientLanguageAccessor",
+		"LanguageManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

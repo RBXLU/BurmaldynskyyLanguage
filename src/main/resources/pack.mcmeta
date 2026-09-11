@@ -1,0 +1,15 @@
+{
+	"pack": {
+		"description": "Бурмалдинский язык",
+		"pack_format": 88,
+		"min_format": 88,
+		"max_format": 88
+	},
+	"language": {
+		"brm_brm": {
+			"name": "Бурмалдинский",
+			"region": "Мурино",
+			"bidirectional": false
+		}
+	}
+}

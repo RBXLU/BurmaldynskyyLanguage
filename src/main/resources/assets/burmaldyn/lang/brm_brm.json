@@ -1,0 +1,11 @@
+{
+	"language.code": "brm_brm",
+	"language.name": "Бурмалдинский",
+	"language.region": "Мурино",
+	"options.language.title": "Языкость",
+	"options.languageAccuracyWarning": "Бурмалдинскость переводость не гарантируется!",
+	"gui.language.search": "Поискость языкости...",
+	"menu.singleplayer": "Одиночная игрость",
+	"menu.multiplayer": "Сетевая игрость",
+	"menu.quit": "Выйти из игрости"
+}

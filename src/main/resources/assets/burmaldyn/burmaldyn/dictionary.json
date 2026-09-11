@@ -1,0 +1,34 @@
+{
+	"_comment": "Встроенный словарь бурмалдинского. Такой же файл может положить любой мод или ресурспак: assets/<namespace>/burmaldyn/<имя>.json",
+
+	"words": {
+		"я": "ч",
+		"меня": "ча",
+		"мне": "чу",
+		"мной": "чом",
+		"дочь": "дотч",
+		"дочери": "дотча",
+		"друзья": "друны",
+		"друзей": "друнов"
+	},
+
+	"stems": {
+		"кошк": "кот"
+	},
+
+	"exceptions": {
+		"дед": { "target": "дод", "source_declension": "masculine", "target_declension": "masculine" },
+		"сын": { "target": "сыр", "source_declension": "masculine", "target_declension": "masculine" },
+		"пап": { "target": "батч", "source_declension": "feminine", "target_declension": "masculine" },
+		"жен": { "target": "жинк", "source_declension": "feminine", "target_declension": "feminine" }
+	},
+
+	"forced_noun_stems": ["кроват", "пчел", "стрел", "портал"],
+
+	"skip": ["стив", "алекс", "майнкрафт"],
+
+	"overrides": {
+		"language.name": "Бурмалдинский",
+		"language.region": "Мурино"
+	}
+}

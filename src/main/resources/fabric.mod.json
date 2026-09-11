@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "burmaldyn",
+	"version": "${version}",
+	"name": "Бурмалдинский язык",
+	"description": "Добавляет в Minecraft бурмалдинский язык — это русский, у которого все существительные получают «-ость». Язык появляется первым в ванильном меню выбора языка, а другие моды могут дополнять перевод через API.",
+	"authors": [
+		"rbxlu"
+	],
+	"contact": {
+		"sources": "https://github.com/RBXLU/BurmaldynskyyLanguage"
+	},
+	"license": "GPL-3.0-or-later",
+	"icon": "assets/burmaldyn/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.burmaldyn.BurmaldynMod"
+		]
+	},
+	"mixins": [
+		{
+			"config": "burmaldyn.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-resource-loader-v1": "*"
+	}
+}
