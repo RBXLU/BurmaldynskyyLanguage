@@ -61,6 +61,11 @@ potion looks and sounds exactly as in vanilla.
 
 ![Chekushka in game](https://raw.githubusercontent.com/RBXLU/BurmaldynskyyLanguage/main/docs/screenshot-chekushka.png)
 
+## Music
+
+The background track Aria Math is replaced with another one. Every other piece
+of music is left alone.
+
 ## Installation
 
 1. Minecraft **26.2**, Fabric Loader **0.19.5+**, Java **25**.
@@ -181,6 +186,10 @@ with a one-line dictionary entry — that is exactly what the API is for.
 Зелье регенерации во всех трёх видах — обычное, взрывное и оседающее —
 выглядит как чекушка. Когда взрывная или оседающая чекушка разбивается,
 вместо звона стекла раздаётся крик. Остальные зелья не трогаются.
+
+## Музыка
+
+Фоновая композиция Aria Math заменена другой. Остальные треки не трогаются.
 
 ## Установка
 
