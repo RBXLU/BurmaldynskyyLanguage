@@ -52,6 +52,15 @@ processed in about 200 ms.
 Exceptions are declined too: `с сыном` → `с сыром`, `к жене` → `к жинке`,
 `с дочерью` → `с дотчем`, `у друзей` → `у друнов`.
 
+## Chekushka
+
+All three regeneration potions — normal, splash and lingering — are rendered as
+a bottle of cheap Russian vodka instead of the vanilla flask, and a breaking
+splash or lingering one screams instead of tinkling like glass. Every other
+potion looks and sounds exactly as in vanilla.
+
+![Chekushka in game](https://raw.githubusercontent.com/RBXLU/BurmaldynskyyLanguage/main/docs/screenshot-chekushka.png)
+
 ## Installation
 
 1. Minecraft **26.2**, Fabric Loader **0.19.5+**, Java **25**.
@@ -166,6 +175,12 @@ with a one-line dictionary entry — that is exactly what the API is for.
 
 Исключения тоже склоняются: `с сыном` → `с сыром`, `к жене` → `к жинке`,
 `с дочерью` → `с дотчем`, `у друзей` → `у друнов`.
+
+## Чекушка
+
+Зелье регенерации во всех трёх видах — обычное, взрывное и оседающее —
+выглядит как чекушка. Когда взрывная или оседающая чекушка разбивается,
+вместо звона стекла раздаётся крик. Остальные зелья не трогаются.
 
 ## Установка
 

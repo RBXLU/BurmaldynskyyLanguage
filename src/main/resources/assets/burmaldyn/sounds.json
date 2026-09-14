@@ -1,0 +1,12 @@
+{
+	"chekushka_break": {
+		"category": "neutral",
+		"subtitle": "burmaldyn.subtitles.chekushka_break",
+		"sounds": [
+			{
+				"name": "burmaldyn:chekushka_break",
+				"stream": false
+			}
+		]
+	}
+}
