@@ -58,6 +58,12 @@ public final class WordAnalyzer {
 			}
 		}
 
+		for (String ending : Lexicon.VERB_LONG_ENDINGS) {
+			if (word.endsWith(ending) && word.length() >= 6) {
+				return true;
+			}
+		}
+
 		for (String ending : Lexicon.VERB_ENDINGS) {
 			if (!word.endsWith(ending)) {
 				continue;
